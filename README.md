@@ -52,3 +52,7 @@ If the link returns a 404 or old content, double‑check the repository setting:
 1. Repo → **Settings** → **Pages**.
 2. Ensure **Source** is set to `gh-pages / (root)`.
 3. Save. Changes may take a minute to propagate.
+
+### Easter‑Egg Marker
+
+Whenever a file containing an intentional easter egg is later removed or overwritten, we add the symbol sequence **😉🐇🕳️** (wink + rabbit + hole) in the related commit message or docs to flag its presence in history.

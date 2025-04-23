@@ -12,3 +12,7 @@
 
 * **Friction:** Forgot to switch GitHub Pages source to `gh-pages` branch → initial 404.
 * **Lesson:** Add a reminder in README and checklist to verify Pages source after first deploy.
+
+## Easter‑Egg Marker Guideline (2025‑04‑23)
+
+*   When intentional easter eggs are removed/overwritten in future commits, append **😉🐇🕳️** in commit messages or docs to signal their existence in history.
