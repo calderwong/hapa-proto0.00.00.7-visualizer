@@ -1,5 +1,6 @@
 import React, { useRef, useMemo } from 'react';
 import { useFrame } from '@react-three/fiber';
+import { Text } from '@react-three/drei';
 import * as THREE from 'three';
 
 // Helper function to create one orbit ring
@@ -43,6 +44,7 @@ function Orbits() {
     <group>
       {/* Mentor Orbit */}
       <OrbitRing
+        key="mentor-orbit"
         radius={10}
         count={8}
         color={0xff6699} // Pink
@@ -51,12 +53,32 @@ function Orbits() {
       />
       {/* Apprentice Orbit */}
       <OrbitRing
+        key="apprentice-orbit"
         radius={18}
         count={12}
         color={0x99ccff} // Light Blue
         size={0.5}
         rotationSpeed={-0.0012} // Opposite direction
       />
+      {/* Labels for the orbits */}
+      <Text
+        position={[10, 1, 0]} // Positioned near the mentor orbit radius, slightly above
+        fontSize={1}
+        color="#ffaabb" // Lighter pink
+        anchorX="center"
+        anchorY="middle"
+      >
+        Mentor Orbit
+      </Text>
+      <Text
+        position={[-18, 1, 0]} // Positioned near the apprentice orbit, on the opposite side
+        fontSize={1}
+        color="#cceeff" // Lighter blue
+        anchorX="center"
+        anchorY="middle"
+      >
+        Apprentice Orbit
+      </Text>
     </group>
   );
 }
