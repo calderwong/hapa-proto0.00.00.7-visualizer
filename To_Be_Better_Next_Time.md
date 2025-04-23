@@ -7,3 +7,8 @@
 *   **What went well:** Scaffolding the basic project structure and standard documentation files was smooth.
 *   **Friction points:** None significant during initial setup.
 *   **Improvements:** Could potentially automate the creation of the standard file set (`README`, `dev_journal`, etc.) for new sub-projects.
+
+## Deployment Hiccup (2025‑04‑23)
+
+* **Friction:** Forgot to switch GitHub Pages source to `gh-pages` branch → initial 404.
+* **Lesson:** Add a reminder in README and checklist to verify Pages source after first deploy.

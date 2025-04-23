@@ -36,3 +36,19 @@ This rebuild integrates the concept into our main project structure for consiste
     ```
 2.  Open the provided URL (usually `http://localhost:5173`) in your browser.
 3.  Interact with the scene: Drag to rotate, scroll to zoom.
+
+## Deployment (GitHub Pages)
+
+This site is automatically built and deployed via a GitHub Actions workflow to GitHub Pages.
+
+**Live URL:**
+
+```
+https://calderwong.github.io/hapa-proto0.00.00.7-visualizer/
+```
+
+If the link returns a 404 or old content, double‑check the repository setting:
+
+1. Repo → **Settings** → **Pages**.
+2. Ensure **Source** is set to `gh-pages / (root)`.
+3. Save. Changes may take a minute to propagate.
