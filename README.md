@@ -56,3 +56,4 @@ If the link returns a 404 or old content, double‑check the repository setting:
 ### Easter‑Egg Marker
 
 Whenever a file containing an intentional easter egg is later removed or overwritten, we add the symbol sequence **😉🐇🕳️** (wink + rabbit + hole) in the related commit message or docs to flag its presence in history.
+Cascade will proactively look for fun easter‑egg opportunities and propose them (or ask you) before hiding content.
